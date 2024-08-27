@@ -10,7 +10,7 @@ menu.classList.toggle('opened')
 // Agrega un evento de clic al botón con el ID 'siguienteBtn'
 document.getElementById('inicio_sesion').addEventListener('click', function() {
 // Redirige a la página 'index.html' al hacer clic en el botón
-window.location.href = 'Log.html';
+window.location.href = 'https://breynersmartinez.github.io/login_chatbot.github.io/';
 });
 
 /* se utiliza para abrir un enlace
