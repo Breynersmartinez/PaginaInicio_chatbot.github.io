@@ -1,10 +1,13 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
 body{
+ --section-color-blue: #4933c4;
     min-height: 100vh;
     width: 100%;
     background-color: #fff;
@@ -223,7 +226,79 @@ button.cta:hover{
 }
 
 
+/* Seccion mapa */
+#Contact {
+    background-color: var(--section-color-white);
+    color: var(--colors-paragraph);
+}
 
-/* Boton  leer mas leer menos */
+/*2*/
+.section-form .section-form--desc {
+    display: flex;
+    justify-content: space-between;
+}
 
-  
+.section-form .section-form--desc .section-form--desc-info {
+    width: 45%;
+    margin-right: 20px;
+}
+
+.section-form .section-form--desc .section-form--desc-info h2 {
+    margin-bottom: 19px;
+}
+
+.section-form .section-form--desc .section-form--desc-info p {
+    font-size: 1rem;
+    line-height: 24px;
+    flex: 1;
+}
+
+
+@media (max-width:840px) {
+.section-form .section-form--desc {
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-form .section-form--desc .section-form--desc-info {
+    width: 82%;
+    margin-right: 0;
+}
+
+.section-form .section-form--desc .section-form--desc-info h2 {
+    text-align: center;
+}
+
+.section-form .section-form--desc .section-form--desc-info p {
+    font-size: 0.93rem;
+    text-align: left;
+    margin-bottom: 23px;
+}
+
+.section-form .section-form--desc iframe {
+    width: 87%;
+}
+}
+.section-form .section-form--formulario {
+    margin-top: 16px;
+}
+
+@media (max-width: 540px) {
+    .section-form .section-form--desc iframe {
+        width: 94vw;
+    }
+}
+
+@media (max-width: 500px) {  
+    .section-form .section-form--desc .section-form--desc-info {
+        width: 97%;
+    }
+
+    .section-form .section-form--desc .section-form--desc-info p {
+        font-size: 0.85rem;
+        
+    }
+}
+
+
+
