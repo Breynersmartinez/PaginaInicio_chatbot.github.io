@@ -4,8 +4,14 @@ menuBtn.addEventListener('click', () => {
 menu.classList.toggle('opened')
 })
 
-
-
+/*
+correspondencia.cal@ucc.edu.co es el destinatario.
+subject=Consulta establece el asunto del correo.
+body=Hola,%20tengo%20una%20consulta. establece el cuerpo del mensaje. Nota que los espacios deben ser reemplazados por %20.
+*/ 
+function contactanosUCC() {
+    window.open('mailto:correspondencia.cal@ucc.edu.co?subject=Consulta&body=Hola,%20tengo%20una%20consulta.');
+}
 
 // Agrega un evento de clic al botón con el ID 'siguienteBtn'
 document.getElementById('inicio_sesion').addEventListener('click', function() {

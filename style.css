@@ -306,7 +306,7 @@ button.cta{
     border: none;
     outline: none;
     background: linear-gradient(to right, #1fa1c9, #004e92);
-    color: #fff;
+    color: #ffffff;
     padding: 18px 32px;
     font-weight: bold;
     letter-spacing: 3px;
@@ -372,7 +372,7 @@ button.cta:hover{
         height: 40px;
         border: none;
         background: transparent;
-        color: #fcfafa;
+        color: #96eb48;
         outline: none;
         font-size: 1.7em;
         cursor: pointer;
@@ -408,7 +408,7 @@ button.cta:hover{
         width: 80%;
         height: 100%;
         background-color: #1fa1c9;
-        color: #fff;
+        color: #ffffff;
         padding: 46px;
         flex-direction: column;
         padding-top: 80px;
@@ -426,6 +426,7 @@ button.cta:hover{
     }
 
     .menu.opened button{
+        /* X para salir del menu */
         color: #fff;
     }
 }
