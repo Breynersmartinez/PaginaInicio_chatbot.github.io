@@ -12,7 +12,9 @@ document.getElementById('inicio_sesion').addEventListener('click', function() {
 // Redirige a la página 'index.html' al hacer clic en el botón
 window.location.href = 'https://breynersmartinez.github.io/login_chatbot.github.io/';
 });
-
+function inicio_sesion_ucc() {
+    window.open('https://breynersmartinez.github.io/login_chatbot.github.io/');
+}
 /* se utiliza para abrir un enlace
  en una nueva pestaña del navegador. 
  En este caso, abre un documento compartido 
@@ -56,3 +58,10 @@ function leerMas(){
         button.texContent = "Mostrar menos"
     }
 }
+
+
+
+
+document.querySelector('.menu-toggle').addEventListener('click', () => {
+    document.querySelector('.menu-list').classList.toggle('active');
+});

@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap">
+    <title>Asesoramiento Jurídico UCC</title>
+    <link rel="icon" href="https://1.bp.blogspot.com/-2iRg97PDe2s/WTSj0l1Xi7I/AAAAAAAAAQA/eqUsQOF5Pnkmu20gy_ZJIQQPG7JlkUTSACLcB/s1600/UCC.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300;400;500;600;700&family=Varela+Round&display=swap" rel="stylesheet">
-    <title>Asesoramiento Juridico Ucc </title>
-
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="https://1.bp.blogspot.com/-2iRg97PDe2s/WTSj0l1Xi7I/AAAAAAAAAQA/eqUsQOF5Pnkmu20gy_ZJIQQPG7JlkUTSACLcB/s1600/UCC.png" type="image/x-icon"> <!-- Aparece el icono o la imagen en la pestaña del navegador -->
 </head>
 <body>
     <header>
-        <h1>"Asesoramiento Juridico Ucc"</h1>
-
+        <div class="logo">
+            <img src="https://1.bp.blogspot.com/-2iRg97PDe2s/WTSj0l1Xi7I/AAAAAAAAAQA/eqUsQOF5Pnkmu20gy_ZJIQQPG7JlkUTSACLcB/s1600/UCC.png" alt="Logo UCC">
+        </div>
         <section class="menu">
             <ul class="menu-list">
                 <li>Inicio</li>
@@ -22,7 +21,7 @@
                 <li onclick="Info_ucc()">Acerca De nosotros</li>
                 <li onclick="contactanosucc()">Contacto</li>
                    <!-- Botón que al presionar nos lleva al Inicio de sesion o registro del usuarios -->
-                <li id="inicio_sesion">Inicio De Sesion</li>
+                  <li onclick="inicio_sesion_ucc()">Inicio de Sesión</li>
             </ul>
 
             <button>
@@ -30,52 +29,33 @@
                 <i class="fas fa-bars"></i>
             </button>
         </section>
-    </header>    
+    </header>
 
-    <section class="main">
-
-        <section class="left">
-            <!--Funcion de mostrar letra por letra-->
-            <span id="tagline">
-            <p class="title">Asesorate Juridicamente Con Nosotros</p>
-            <article id="contenido">
-            <p class="msg" >" la Universidad Cooperativa de Colombia (UCC) 
-                presta un servicio social, gratuito, de calidad, 
-                incluyente y diverso a la comunidad de estratos 1, 2 y 3. 
-                Su objetivo es generar un impacto social en la solución 
-                de conflictos de naturaleza jurídica que no superen los 
-                50 salarios mínimos legales vigentes. "</p>
-            </p>
-            
-            </article>
-        
-           
+    <main>
+        <section class="hero">
+            <div class="overlay"></div>
+            <div class="hero-content">
+                <h1>Asesoramiento Jurídico Profesional</h1>
+                <p>"El apoyo que necesitas en tus procesos jurídicos. Somos la Universidad Cooperativa de Colombia, brindando soluciones reales a conflictos legales de manera gratuita."</p>
+                <a href="#" class="cta-button">Conócenos</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://i.pinimg.com/originals/3e/05/8a/3e058a5ed0818dc1ba3759ad653933ed.jpg" alt="Legal Assistance">
+            </div>
         </section>
 
-
-            <section class="right">
-                <img src="https://i.pinimg.com/originals/3e/05/8a/3e058a5ed0818dc1ba3759ad653933ed.jpg" alt="Landing Image">
-            </section>
-
-           
-    </section>
-    <section id="Contact">
-        <div class="conteiner section-form">
-            <div class="section-form--desc">
-                <div class="section-form--desc-info">
-                    <h2> Universidad Cooperativa De Colombia (Campus Cali)</h2>
-                   <!--<p>Si desea programar una cita, puede encontrarnos en la dirección a continuación o reserva tu cita por medio de Whatsapp.--> 
-                       
-                    </p>
-                </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.8332865711604!2d-76.55374192493363!3d3.390850996583784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a8832212050d%3A0xb7281223f25ff99b!2sUCC%20Cali!5e0!3m2!1ses-419!2sco!4v1725750216407!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <section class="about">
+            <h2>Universidad Cooperativa de Colombia - Cali</h2>
+            <div class="about-content">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.8332865711604!2d-76.55374192493363!3d3.390850996583784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a8832212050d%3A0xb7281223f25ff99b!2sUCC%20Cali!5e0!3m2!1ses-419!2sco!4v1725750216407!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
-            
-        </div>
-    </section>
-   
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Asesoramiento Jurídico UCC - Todos los derechos reservados.</p>
+    </footer>
+
     <script src="script.js"></script>
-
-
 </body>
 </html>
