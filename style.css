@@ -8,7 +8,7 @@
 
 body {
     min-height: 100vh;
-    display: flex;
+    display: auto;
     flex-direction: column;
     background: #f7f7f7;
     scroll-behavior: smooth;
@@ -36,7 +36,7 @@ header.scrolled {
 }
 
 .menu ul {
-    display: flex;
+    display: auto;
     list-style: none;
 }
 
