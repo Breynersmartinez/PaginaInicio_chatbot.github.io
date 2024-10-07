@@ -210,6 +210,9 @@ footer {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+.header, .left, .right {
+    padding: 5vw;
+}
 
 body{
  --section-color-blue: #4933c4;
